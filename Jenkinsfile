@@ -1,6 +1,6 @@
 node {
   stage('Checkout SCM') {
-    git branch: 'main', url: 'https://github.com/subbuto/hello-world-2.git'
+    git branch: 'patch-3', url: 'https://github.com/subbuto/demo-angular-app.git'
   }
   stage('Install node modules') {
     sh "npm install"
